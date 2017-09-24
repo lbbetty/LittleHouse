@@ -21,7 +21,7 @@
 		3C67DA0A1F77CB7100671CE9 /* GLHouseView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3C67DA091F77CB7100671CE9 /* GLHouseView.mm */; };
 		3C67DA0F1F77E99B00671CE9 /* vertexshader.shader in Sources */ = {isa = PBXBuildFile; fileRef = 3C67DA0D1F77E99B00671CE9 /* vertexshader.shader */; };
 		3C67DA121F77F0A600671CE9 /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C67DA101F77F0A600671CE9 /* Shader.cpp */; };
-		3C67DA151F77F90300671CE9 /* Render.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C67DA131F77F90300671CE9 /* Render.cpp */; };
+		3C67DA181F7803DE00671CE9 /* Render.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C67DA161F7803DE00671CE9 /* Render.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +59,8 @@
 		3C67DA0E1F77E99B00671CE9 /* frameshader.shader */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = frameshader.shader; sourceTree = "<group>"; };
 		3C67DA101F77F0A600671CE9 /* Shader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Shader.cpp; path = LittleHouse/GL/Shader.cpp; sourceTree = SOURCE_ROOT; };
 		3C67DA111F77F0A600671CE9 /* Shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Shader.h; path = LittleHouse/GL/Shader.h; sourceTree = SOURCE_ROOT; };
-		3C67DA131F77F90300671CE9 /* Render.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Render.cpp; sourceTree = "<group>"; };
-		3C67DA141F77F90300671CE9 /* Render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Render.h; sourceTree = "<group>"; };
+		3C67DA161F7803DE00671CE9 /* Render.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Render.cpp; path = LittleHouse/GL/Render.cpp; sourceTree = "<group>"; };
+		3C67DA171F7803DE00671CE9 /* Render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Render.h; path = LittleHouse/GL/Render.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,10 +153,10 @@
 			isa = PBXGroup;
 			children = (
 				3C67DA0C1F77E97300671CE9 /* Shader */,
+				3C67DA161F7803DE00671CE9 /* Render.cpp */,
+				3C67DA171F7803DE00671CE9 /* Render.h */,
 				3C67DA081F77CB7100671CE9 /* GLHouseView.h */,
 				3C67DA091F77CB7100671CE9 /* GLHouseView.mm */,
-				3C67DA131F77F90300671CE9 /* Render.cpp */,
-				3C67DA141F77F90300671CE9 /* Render.h */,
 			);
 			name = GL;
 			path = ..;
@@ -277,7 +277,7 @@
 				3C67DA0F1F77E99B00671CE9 /* vertexshader.shader in Sources */,
 				3C67DA0A1F77CB7100671CE9 /* GLHouseView.mm in Sources */,
 				3C67D9E51F77C6BF00671CE9 /* SettingViewController.m in Sources */,
-				3C67DA151F77F90300671CE9 /* Render.cpp in Sources */,
+				3C67DA181F7803DE00671CE9 /* Render.cpp in Sources */,
 				3C67D9DF1F77C6BF00671CE9 /* AppDelegate.m in Sources */,
 				3C67DA121F77F0A600671CE9 /* Shader.cpp in Sources */,
 				3C67D9E21F77C6BF00671CE9 /* GLViewController.m in Sources */,
@@ -472,6 +472,7 @@
 				3C67D9FE1F77C6BF00671CE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C67D9FF1F77C6BF00671CE9 /* Build configuration list for PBXNativeTarget "LittleHouseTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +481,7 @@
 				3C67DA011F77C6BF00671CE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
