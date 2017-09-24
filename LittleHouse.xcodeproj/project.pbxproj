@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C67D9DC1F77C6BF00671CE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C67D9DB1F77C6BF00671CE9 /* main.m */; };
+		3C67D9DF1F77C6BF00671CE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C67D9DE1F77C6BF00671CE9 /* AppDelegate.m */; };
+		3C67D9E21F77C6BF00671CE9 /* GLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C67D9E11F77C6BF00671CE9 /* GLViewController.m */; };
+		3C67D9E51F77C6BF00671CE9 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C67D9E41F77C6BF00671CE9 /* SettingViewController.m */; };
+		3C67D9E81F77C6BF00671CE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C67D9E61F77C6BF00671CE9 /* Main.storyboard */; };
+		3C67D9EA1F77C6BF00671CE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C67D9E91F77C6BF00671CE9 /* Images.xcassets */; };
+		3C67D9ED1F77C6BF00671CE9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C67D9EB1F77C6BF00671CE9 /* LaunchScreen.xib */; };
+		3C67D9F91F77C6BF00671CE9 /* LittleHouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C67D9F81F77C6BF00671CE9 /* LittleHouseTests.m */; };
+		3C67DA031F77CAFD00671CE9 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C67DA021F77CAFD00671CE9 /* OpenGLES.framework */; };
+		3C67DA051F77CB0400671CE9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C67DA041F77CB0400671CE9 /* QuartzCore.framework */; };
+		3C67DA071F77CB0B00671CE9 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C67DA061F77CB0B00671CE9 /* GLKit.framework */; };
+		3C67DA0A1F77CB7100671CE9 /* GLHouseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C67DA091F77CB7100671CE9 /* GLHouseView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C67D9F31F77C6BF00671CE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C67D9CE1F77C6BF00671CE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C67D9D51F77C6BF00671CE9;
+			remoteInfo = LittleHouse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C67D9D61F77C6BF00671CE9 /* LittleHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C67D9DA1F77C6BF00671CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C67D9DB1F77C6BF00671CE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C67D9DD1F77C6BF00671CE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C67D9DE1F77C6BF00671CE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C67D9E01F77C6BF00671CE9 /* GLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLViewController.h; sourceTree = "<group>"; };
+		3C67D9E11F77C6BF00671CE9 /* GLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLViewController.m; sourceTree = "<group>"; };
+		3C67D9E31F77C6BF00671CE9 /* SettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		3C67D9E41F77C6BF00671CE9 /* SettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		3C67D9E71F77C6BF00671CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C67D9E91F77C6BF00671CE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3C67D9EC1F77C6BF00671CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3C67D9F21F77C6BF00671CE9 /* LittleHouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleHouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C67D9F71F77C6BF00671CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C67D9F81F77C6BF00671CE9 /* LittleHouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LittleHouseTests.m; sourceTree = "<group>"; };
+		3C67DA021F77CAFD00671CE9 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		3C67DA041F77CB0400671CE9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3C67DA061F77CB0B00671CE9 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		3C67DA081F77CB7100671CE9 /* GLHouseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLHouseView.h; path = LittleHouse/GL/GLHouseView.h; sourceTree = "<group>"; };
+		3C67DA091F77CB7100671CE9 /* GLHouseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLHouseView.m; path = LittleHouse/GL/GLHouseView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C67D9D31F77C6BF00671CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C67DA071F77CB0B00671CE9 /* GLKit.framework in Frameworks */,
+				3C67DA051F77CB0400671CE9 /* QuartzCore.framework in Frameworks */,
+				3C67DA031F77CAFD00671CE9 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C67D9EF1F77C6BF00671CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C67D9CD1F77C6BF00671CE9 = {
+			isa = PBXGroup;
+			children = (
+				3C67DA061F77CB0B00671CE9 /* GLKit.framework */,
+				3C67DA041F77CB0400671CE9 /* QuartzCore.framework */,
+				3C67DA021F77CAFD00671CE9 /* OpenGLES.framework */,
+				3C67D9D81F77C6BF00671CE9 /* LittleHouse */,
+				3C67D9F51F77C6BF00671CE9 /* LittleHouseTests */,
+				3C67D9D71F77C6BF00671CE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C67D9D71F77C6BF00671CE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C67D9D61F77C6BF00671CE9 /* LittleHouse.app */,
+				3C67D9F21F77C6BF00671CE9 /* LittleHouseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C67D9D81F77C6BF00671CE9 /* LittleHouse */ = {
+			isa = PBXGroup;
+			children = (
+				3C67DA0B1F77CB7A00671CE9 /* GL */,
+				3C67D9DD1F77C6BF00671CE9 /* AppDelegate.h */,
+				3C67D9DE1F77C6BF00671CE9 /* AppDelegate.m */,
+				3C67D9E01F77C6BF00671CE9 /* GLViewController.h */,
+				3C67D9E11F77C6BF00671CE9 /* GLViewController.m */,
+				3C67D9E31F77C6BF00671CE9 /* SettingViewController.h */,
+				3C67D9E41F77C6BF00671CE9 /* SettingViewController.m */,
+				3C67D9E61F77C6BF00671CE9 /* Main.storyboard */,
+				3C67D9E91F77C6BF00671CE9 /* Images.xcassets */,
+				3C67D9EB1F77C6BF00671CE9 /* LaunchScreen.xib */,
+				3C67D9D91F77C6BF00671CE9 /* Supporting Files */,
+			);
+			path = LittleHouse;
+			sourceTree = "<group>";
+		};
+		3C67D9D91F77C6BF00671CE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C67D9DA1F77C6BF00671CE9 /* Info.plist */,
+				3C67D9DB1F77C6BF00671CE9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C67D9F51F77C6BF00671CE9 /* LittleHouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C67D9F81F77C6BF00671CE9 /* LittleHouseTests.m */,
+				3C67D9F61F77C6BF00671CE9 /* Supporting Files */,
+			);
+			path = LittleHouseTests;
+			sourceTree = "<group>";
+		};
+		3C67D9F61F77C6BF00671CE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C67D9F71F77C6BF00671CE9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C67DA0B1F77CB7A00671CE9 /* GL */ = {
+			isa = PBXGroup;
+			children = (
+				3C67DA081F77CB7100671CE9 /* GLHouseView.h */,
+				3C67DA091F77CB7100671CE9 /* GLHouseView.m */,
+			);
+			name = GL;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C67D9D51F77C6BF00671CE9 /* LittleHouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C67D9FC1F77C6BF00671CE9 /* Build configuration list for PBXNativeTarget "LittleHouse" */;
+			buildPhases = (
+				3C67D9D21F77C6BF00671CE9 /* Sources */,
+				3C67D9D31F77C6BF00671CE9 /* Frameworks */,
+				3C67D9D41F77C6BF00671CE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittleHouse;
+			productName = LittleHouse;
+			productReference = 3C67D9D61F77C6BF00671CE9 /* LittleHouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C67D9F11F77C6BF00671CE9 /* LittleHouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C67D9FF1F77C6BF00671CE9 /* Build configuration list for PBXNativeTarget "LittleHouseTests" */;
+			buildPhases = (
+				3C67D9EE1F77C6BF00671CE9 /* Sources */,
+				3C67D9EF1F77C6BF00671CE9 /* Frameworks */,
+				3C67D9F01F77C6BF00671CE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C67D9F41F77C6BF00671CE9 /* PBXTargetDependency */,
+			);
+			name = LittleHouseTests;
+			productName = LittleHouseTests;
+			productReference = 3C67D9F21F77C6BF00671CE9 /* LittleHouseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C67D9CE1F77C6BF00671CE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Xnight;
+				TargetAttributes = {
+					3C67D9D51F77C6BF00671CE9 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					3C67D9F11F77C6BF00671CE9 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 3C67D9D51F77C6BF00671CE9;
+					};
+				};
+			};
+			buildConfigurationList = 3C67D9D11F77C6BF00671CE9 /* Build configuration list for PBXProject "LittleHouse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C67D9CD1F77C6BF00671CE9;
+			productRefGroup = 3C67D9D71F77C6BF00671CE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C67D9D51F77C6BF00671CE9 /* LittleHouse */,
+				3C67D9F11F77C6BF00671CE9 /* LittleHouseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C67D9D41F77C6BF00671CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C67D9E81F77C6BF00671CE9 /* Main.storyboard in Resources */,
+				3C67D9ED1F77C6BF00671CE9 /* LaunchScreen.xib in Resources */,
+				3C67D9EA1F77C6BF00671CE9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C67D9F01F77C6BF00671CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C67D9D21F77C6BF00671CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C67DA0A1F77CB7100671CE9 /* GLHouseView.m in Sources */,
+				3C67D9E51F77C6BF00671CE9 /* SettingViewController.m in Sources */,
+				3C67D9DF1F77C6BF00671CE9 /* AppDelegate.m in Sources */,
+				3C67D9E21F77C6BF00671CE9 /* GLViewController.m in Sources */,
+				3C67D9DC1F77C6BF00671CE9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C67D9EE1F77C6BF00671CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C67D9F91F77C6BF00671CE9 /* LittleHouseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C67D9F41F77C6BF00671CE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C67D9D51F77C6BF00671CE9 /* LittleHouse */;
+			targetProxy = 3C67D9F31F77C6BF00671CE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C67D9E61F77C6BF00671CE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C67D9E71F77C6BF00671CE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C67D9EB1F77C6BF00671CE9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C67D9EC1F77C6BF00671CE9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C67D9FA1F77C6BF00671CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C67D9FB1F77C6BF00671CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C67D9FD1F77C6BF00671CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LittleHouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C67D9FE1F77C6BF00671CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LittleHouse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3C67DA001F77C6BF00671CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LittleHouseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleHouse.app/LittleHouse";
+			};
+			name = Debug;
+		};
+		3C67DA011F77C6BF00671CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LittleHouseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittleHouse.app/LittleHouse";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C67D9D11F77C6BF00671CE9 /* Build configuration list for PBXProject "LittleHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C67D9FA1F77C6BF00671CE9 /* Debug */,
+				3C67D9FB1F77C6BF00671CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C67D9FC1F77C6BF00671CE9 /* Build configuration list for PBXNativeTarget "LittleHouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C67D9FD1F77C6BF00671CE9 /* Debug */,
+				3C67D9FE1F77C6BF00671CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C67D9FF1F77C6BF00671CE9 /* Build configuration list for PBXNativeTarget "LittleHouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C67DA001F77C6BF00671CE9 /* Debug */,
+				3C67DA011F77C6BF00671CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C67D9CE1F77C6BF00671CE9 /* Project object */;
+}
